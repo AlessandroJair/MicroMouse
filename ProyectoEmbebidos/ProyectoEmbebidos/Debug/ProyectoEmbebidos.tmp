@@ -1,0 +1,139 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\Debug\ProyectoEmbebidos.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>ProyectoEmbebidos.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>ProyectoEmbebidos.map</FILE>
+  <FILE>ProyectoEmbebidos.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>9</LINE></start>
+  <PCINT0_I><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>262</LINE></PCINT0_I>
+  <PCINT2_I><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>361</LINE></PCINT2_I>
+  <overflow_handler1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>476</LINE></overflow_handler1>
+  <LOOP><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>57</LINE></LOOP>
+  <DETENER><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>126</LINE></DETENER>
+  <MODI><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>113</LINE></MODI>
+  <CONTINUAR_MODI><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>71</LINE></CONTINUAR_MODI>
+  <PUT_TX><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>99</LINE></PUT_TX>
+  <GET_RX><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>106</LINE></GET_RX>
+  <NO_MOVIMIENTO><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>95</LINE></NO_MOVIMIENTO>
+  <VERI_IZQUIERDA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>116</LINE></VERI_IZQUIERDA>
+  <VERI_DERECHA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>121</LINE></VERI_DERECHA>
+  <ADELANTE><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>143</LINE></ADELANTE>
+  <RETROCEDER><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>161</LINE></RETROCEDER>
+  <IZQUIERDA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>221</LINE></IZQUIERDA>
+  <DERECHA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>181</LINE></DERECHA>
+  <CONTROL_MOTORES><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>565</LINE></CONTROL_MOTORES>
+  <SUB_RUT_IN0_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>297</LINE></SUB_RUT_IN0_2>
+  <SUB_RUT_IN0_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>294</LINE></SUB_RUT_IN0_1>
+  <CONT_INT_0><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>287</LINE></CONT_INT_0>
+  <CONTEO_M1_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>300</LINE></CONTEO_M1_1>
+  <CONTEO_M1_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>334</LINE></CONTEO_M1_2>
+  <RESTA_M1_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>325</LINE></RESTA_M1_1>
+  <SUMA_M1_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>322</LINE></SUMA_M1_1>
+  <FIN_CONTEO_M1_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>320</LINE></FIN_CONTEO_M1_1>
+  <SUB_RUT_IN2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>328</LINE></SUB_RUT_IN2_1>
+  <CONT_INT_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>385</LINE></CONT_INT_2>
+  <SUB_RUT_IN2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>331</LINE></SUB_RUT_IN2_2>
+  <SUMA_M1_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>355</LINE></SUMA_M1_2>
+  <RESTA_M1_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>358</LINE></RESTA_M1_2>
+  <S_CONTEO_M2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>417</LINE></S_CONTEO_M2_2>
+  <S_CONTEO_M2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>414</LINE></S_CONTEO_M2_1>
+  <CONT_INT_2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>407</LINE></CONT_INT_2_1>
+  <CONTEO_M2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>420</LINE></CONTEO_M2_1>
+  <CONTEO_M2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>448</LINE></CONTEO_M2_2>
+  <SUMA_M2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>442</LINE></SUMA_M2_1>
+  <RESTA_M2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>445</LINE></RESTA_M2_1>
+  <FIN_CONTEO_M2_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>440</LINE></FIN_CONTEO_M2_1>
+  <RESTA_M2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>473</LINE></RESTA_M2_2>
+  <SUMA_M2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>470</LINE></SUMA_M2_2>
+  <FIN_CONTEO_M2_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>468</LINE></FIN_CONTEO_M2_2>
+  <DIVIDIR><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>485</LINE></DIVIDIR>
+  <LOOP_DIVISION><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>490</LINE></LOOP_DIVISION>
+  <RESTA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>495</LINE></RESTA>
+  <PULSOS_MOTORES><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>499</LINE></PULSOS_MOTORES>
+  <COUNT_PULSOS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>518</LINE></COUNT_PULSOS>
+  <MIN_R16><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>547</LINE></MIN_R16>
+  <CONTINUAR_CONTEO_3><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>521</LINE></CONTINUAR_CONTEO_3>
+  <MIN_R17><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>550</LINE></MIN_R17>
+  <CONTINUAR_CONTEO_4><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>524</LINE></CONTINUAR_CONTEO_4>
+  <OVER_R16><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>553</LINE></OVER_R16>
+  <CONTINUAR_CONTEO_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>527</LINE></CONTINUAR_CONTEO_1>
+  <OVER_R17><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>556</LINE></OVER_R17>
+  <CONTINUAR_CONTEO_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>530</LINE></CONTINUAR_CONTEO_2>
+  <FIN_PID><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>559</LINE></FIN_PID>
+  <FIN_PROCESS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>541</LINE></FIN_PROCESS>
+  <LOOP_MOTORES><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>607</LINE></LOOP_MOTORES>
+  <PID_V_MOTOR><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>714</LINE></PID_V_MOTOR>
+  <INVERTIR_DIRECCION_MOTOR1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>676</LINE></INVERTIR_DIRECCION_MOTOR1>
+  <INVERTIR_DIRECCION_MOTOR2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>695</LINE></INVERTIR_DIRECCION_MOTOR2>
+  <FIN_PID_POS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>643</LINE></FIN_PID_POS>
+  <Delay100ms><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>1018</LINE></Delay100ms>
+  <INVERTIR_M1_P1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>692</LINE></INVERTIR_M1_P1>
+  <FIN_INVERSION_M1_P1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>686</LINE></FIN_INVERSION_M1_P1>
+  <INVERTIR_M2_P1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>711</LINE></INVERTIR_M2_P1>
+  <FIN_INVERSION_M2_P1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>705</LINE></FIN_INVERSION_M2_P1>
+  <ERROR_RUEDA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>778</LINE></ERROR_RUEDA>
+  <OVER_I><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>775</LINE></OVER_I>
+  <CONTINUAR_PID_I><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>744</LINE></CONTINUAR_PID_I>
+  <OPERACION_INTEGRAL><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>807</LINE></OPERACION_INTEGRAL>
+  <INVERSION_MOTOR><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>903</LINE></INVERSION_MOTOR>
+  <SATURACION><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>1009</LINE></SATURACION>
+  <MINUS_ERROR><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>794</LINE></MINUS_ERROR>
+  <INVERTIR_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>789</LINE></INVERTIR_1>
+  <FIN_ERROR><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>792</LINE></FIN_ERROR>
+  <INVERTIR_2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>803</LINE></INVERTIR_2>
+  <OPERACION_INTEGRAL_M2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>824</LINE></OPERACION_INTEGRAL_M2>
+  <OPERACION_INTEGRAL_M1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>817</LINE></OPERACION_INTEGRAL_M1>
+  <CONTINUAR_INT><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>814</LINE></CONTINUAR_INT>
+  <INTEGRAL_NEGATIVA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>831</LINE></INTEGRAL_NEGATIVA>
+  <INTEGRAL_POSITIVA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>867</LINE></INTEGRAL_POSITIVA>
+  <INTEGRAL_MOTOR1_N><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>837</LINE></INTEGRAL_MOTOR1_N>
+  <INTEGRAL_MOTOR2_N><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>843</LINE></INTEGRAL_MOTOR2_N>
+  <RESTA_INTEGRAL_N><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>849</LINE></RESTA_INTEGRAL_N>
+  <SUMA_INTEGRAL_N><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>852</LINE></SUMA_INTEGRAL_N>
+  <INT_INVERTIDA_N><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>858</LINE></INT_INVERTIDA_N>
+  <INTEGRAL_MOTOR1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>873</LINE></INTEGRAL_MOTOR1>
+  <INTEGRAL_MOTOR2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>879</LINE></INTEGRAL_MOTOR2>
+  <RESTA_INTEGRAL><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>885</LINE></RESTA_INTEGRAL>
+  <SUMA_INTEGRAL><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>900</LINE></SUMA_INTEGRAL>
+  <INT_INVERTIDA><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>891</LINE></INT_INVERTIDA>
+  <SECCION_M2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>960</LINE></SECCION_M2>
+  <SECCION_M1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>911</LINE></SECCION_M1>
+  <CONTINUA_INV_M><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>909</LINE></CONTINUA_INV_M>
+  <MOTOR_1_INT_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>939</LINE></MOTOR_1_INT_NEG>
+  <MOTOR_1_INT_POS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>918</LINE></MOTOR_1_INT_POS>
+  <MOTOR_1_INV_1_P_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>928</LINE></MOTOR_1_INV_1_P_NEG>
+  <MOTOR_1_INV_1_P_POS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>924</LINE></MOTOR_1_INV_1_P_POS>
+  <VERIFICACION_INV_M1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>934</LINE></VERIFICACION_INV_M1>
+  <MOTOR_1_INV_1_P_NEG_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>945</LINE></MOTOR_1_INV_1_P_NEG_1>
+  <MOTOR_1_INV_1_P_POS_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>949</LINE></MOTOR_1_INV_1_P_POS_1>
+  <VERIFICACION_INV_M1_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>955</LINE></VERIFICACION_INV_M1_NEG>
+  <MOTOR_2_INT_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>967</LINE></MOTOR_2_INT_NEG>
+  <MOTOR_2_INT_POS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>988</LINE></MOTOR_2_INT_POS>
+  <MOTOR_2_INV_1_P_NEG_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>973</LINE></MOTOR_2_INV_1_P_NEG_1>
+  <MOTOR_2_INV_1_P_POS_1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>977</LINE></MOTOR_2_INV_1_P_POS_1>
+  <VERIFICACION_INV_M2_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>983</LINE></VERIFICACION_INV_M2_NEG>
+  <MOTOR_2_INV_1_P_NEG><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>998</LINE></MOTOR_2_INV_1_P_NEG>
+  <MOTOR_2_INV_1_P_POS><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>994</LINE></MOTOR_2_INV_1_P_POS>
+  <VERIFICACION_INV_M2><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>1004</LINE></VERIFICACION_INV_M2>
+  <FIN_SATURACION><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>1016</LINE></FIN_SATURACION>
+  <L1><FILE>C:\Users\Alessandro\Documents\Atmel Studio\7.0\ProyectoEmbebidos\ProyectoEmbebidos\main.asm</FILE><LINE>1025</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,10 @@
+C:/Users/Alessandro/Downloads/V13/Design01.cydsn/CortexM3/ARM_GCC_541/Debug/CyBootAsmGnu.o : C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc 
+
+C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/CyBootAsmGnu.s : 
+
+C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu.inc : 
+
+C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cydevicegnu_trm.inc : 
+
+C:/Users/Alessandro/Downloads/V13/Design01.cydsn/Generated_Source/PSoC5/cyfittergnu.inc : 
+

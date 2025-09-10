@@ -1,0 +1,90 @@
+--------------- Build Started: 08/26/2024 08:47:15 Project: Design01, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM3\ARM_GCC_541\Debug\main.o
+In file included from main.c:3:0:
+Func.h: In function 'resetValues':
+Func.h:10:9: warning: unused variable 'flood' [-Wunused-variable]
+     int flood[SIZE][SIZE] = {//laberinto chiquito
+         ^
+Func.h:9:9: warning: unused variable 'cell' [-Wunused-variable]
+     int cell = 0;
+         ^
+Func.h:8:9: warning: unused variable 'cells' [-Wunused-variable]
+     int cells[SIZE][SIZE] = {0};
+         ^
+Func.h:7:23: warning: unused variable 'orient' [-Wunused-variable]
+     int x = 0, y = 0, orient = 0;
+                       ^
+Func.h:7:16: warning: unused variable 'y' [-Wunused-variable]
+     int x = 0, y = 0, orient = 0;
+                ^
+Func.h:7:9: warning: unused variable 'x' [-Wunused-variable]
+     int x = 0, y = 0, orient = 0;
+         ^
+In file included from main.c:3:0:
+Func.h: In function 'makeConsistent':
+Func.h:129:9: warning: unused variable 'val' [-Wunused-variable]
+     int val = flood[y][x];
+         ^
+Func.h: In function 'floodFill3':
+Func.h:267:9: warning: unused variable 'top' [-Wunused-variable]
+     int top = -1;
+         ^
+Func.h: In function 'toMove':
+Func.h:367:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+         if(surrounds[0]==*xprev & surrounds[1]==*yprev ){prev=0; minVals[0]=flood[*yprev][*xprev];}}
+                        ^
+Func.h:370:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+         if(surrounds[2]==*xprev & surrounds[3]==*yprev ){prev=1; minVals[1]=flood[*yprev][*xprev];}}
+                        ^
+Func.h:373:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+         if(surrounds[4]==*xprev & surrounds[5]==*yprev ){prev=1; minVals[2]=flood[*yprev][*xprev];}}
+                        ^
+Func.h:376:24: warning: suggest parentheses around comparison in operand of '&' [-Wparentheses]
+         if(surrounds[6]==*xprev & surrounds[7]==*yprev ){prev=1; minVals[3]=flood[*yprev][*xprev];}}
+                        ^
+Func.h:359:9: warning: unused variable 'value' [-Wunused-variable]
+     int value= flood[*y][*x];
+         ^
+Func.h: In function 'toMove2':
+Func.h:415:9: warning: unused variable 'noMovements' [-Wunused-variable]
+     int noMovements=0;
+         ^
+Func.h:414:9: warning: unused variable 'minVal' [-Wunused-variable]
+     int minVal;
+         ^
+Func.h:413:9: warning: unused variable 'minVals' [-Wunused-variable]
+     int minVals[4]={1000,1000,1000,1000};
+         ^
+Func.h:412:9: warning: unused variable 'prev' [-Wunused-variable]
+     int prev=0;
+         ^
+main.c: In function 'isr_clkDigits':
+main.c:194:9: warning: unused variable 'Val1' [-Wunused-variable]
+     int Val1=cells[x][y];
+         ^
+In file included from main.c:3:0:
+main.c: In function 'toMove':
+Func.h:384:20: warning: iteration 4u invokes undefined behavior [-Waggressive-loop-optimizations]
+         if (minVals[i]<minVal){
+                    ^
+Func.h:383:5: note: containing loop
+     for (int i=0;i<=4;i++){
+     ^
+Func.h:381:16: warning: iteration 4u invokes undefined behavior [-Waggressive-loop-optimizations]
+     if (minVals[i]!=1000){noMovements++;}}
+                ^
+Func.h:380:5: note: containing loop
+     for (int i=0;i<=4;i++){
+     ^
+arm-none-eabi-ar.exe -rs .\CortexM3\ARM_GCC_541\Debug\Design01.a .\CortexM3\ARM_GCC_541\Debug\UART_1.o .\CortexM3\ARM_GCC_541\Debug\UART_1_PM.o .\CortexM3\ARM_GCC_541\Debug\UART_1_INT.o .\CortexM3\ARM_GCC_541\Debug\UART_1_BOOT.o .\CortexM3\ARM_GCC_541\Debug\Opamp_1.o .\CortexM3\ARM_GCC_541\Debug\Opamp_1_PM.o .\CortexM3\ARM_GCC_541\Debug\Vout_1.o .\CortexM3\ARM_GCC_541\Debug\INVERSOR_1.o .\CortexM3\ARM_GCC_541\Debug\SENSOR_1.o .\CortexM3\ARM_GCC_541\Debug\Opamp_2.o .\CortexM3\ARM_GCC_541\Debug\Opamp_2_PM.o .\CortexM3\ARM_GCC_541\Debug\Vout_2.o .\CortexM3\ARM_GCC_541\Debug\SENSOR_2.o .\CortexM3\ARM_GCC_541\Debug\DIGITOS.o .\CortexM3\ARM_GCC_541\Debug\INVERSOR_2.o .\CortexM3\ARM_GCC_541\Debug\BOTONES.o .\CortexM3\ARM_GCC_541\Debug\UART_1_IntClock.o .\CortexM3\ARM_GCC_541\Debug\CyDmac.o .\CortexM3\ARM_GCC_541\Debug\CyFlash.o .\CortexM3\ARM_GCC_541\Debug\CyLib.o .\CortexM3\ARM_GCC_541\Debug\cyPm.o .\CortexM3\ARM_GCC_541\Debug\CySpc.o .\CortexM3\ARM_GCC_541\Debug\cyutils.o .\CortexM3\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM3\ARM_GCC_541\Debug\INVERSOR_3.o .\CortexM3\ARM_GCC_541\Debug\SENSOR_3.o .\CortexM3\ARM_GCC_541\Debug\Vout_3.o .\CortexM3\ARM_GCC_541\Debug\Opamp_3.o .\CortexM3\ARM_GCC_541\Debug\Opamp_3_PM.o .\CortexM3\ARM_GCC_541\Debug\BOTON.o .\CortexM3\ARM_GCC_541\Debug\isr_tx.o .\CortexM3\ARM_GCC_541\Debug\isr_rx.o .\CortexM3\ARM_GCC_541\Debug\isr_b1.o .\CortexM3\ARM_GCC_541\Debug\isr_b2.o .\CortexM3\ARM_GCC_541\Debug\isr_b3.o .\CortexM3\ARM_GCC_541\Debug\Clock_1.o .\CortexM3\ARM_GCC_541\Debug\isr_clkDigits.o .\CortexM3\ARM_GCC_541\Debug\Timer_1.o .\CortexM3\ARM_GCC_541\Debug\Timer_1_PM.o .\CortexM3\ARM_GCC_541\Debug\SS_A.o .\CortexM3\ARM_GCC_541\Debug\SS_B.o .\CortexM3\ARM_GCC_541\Debug\SS_C.o .\CortexM3\ARM_GCC_541\Debug\SS_D.o .\CortexM3\ARM_GCC_541\Debug\SS_E.o .\CortexM3\ARM_GCC_541\Debug\SS_F.o .\CortexM3\ARM_GCC_541\Debug\SS_G.o .\CortexM3\ARM_GCC_541\Debug\SS_P.o .\CortexM3\ARM_GCC_541\Debug\Clock_2.o .\CortexM3\ARM_GCC_541\Debug\LED_MSB.o .\CortexM3\ARM_GCC_541\Debug\LED_LSB.o .\CortexM3\ARM_GCC_541\Debug\Tx_1.o .\CortexM3\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM3\ARM_GCC_541\Debug\Design01.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o C:\Users\Alessandro\Downloads\V13\Design01.cydsn\CortexM3\ARM_GCC_541\Debug\Design01.elf .\CortexM3\ARM_GCC_541\Debug\main.o .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM3\ARM_GCC_541\Debug\cymetadata.o .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o .\CortexM3\ARM_GCC_541\Debug\Design01.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM3\ARM_GCC_541\Debug\CyComponentLibrary.a" -mcpu=cortex-m3 -mthumb -L Generated_Source\PSoC5 -Wl,-Map,.\CortexM3\ARM_GCC_541\Debug/Design01.map -T Generated_Source\PSoC5\cm3gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C C:\Users\Alessandro\Downloads\V13\Design01.cydsn\CortexM3\ARM_GCC_541\Debug\Design01.elf --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S C:\Users\Alessandro\Downloads\V13\Design01.cydsn\CortexM3\ARM_GCC_541\Debug\Design01.elf
+Flash used: 4366 of 262144 bytes (1.7 %).
+SRAM used: 4201 of 65536 bytes (6.4 %). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 08/26/2024 08:47:16 ---------------
